@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrint-to-fit=no">
+  <title>HL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/repon-style.css">
+  <link rel="stylesheet" href="news.css">
+  <link rel="stylesheet" href="news-repon.css">
+</head>
+<body>
+  <header id="header">
+    <div id="vnt-header">
+        <div class="wrapper">
+            <div class="logo">
+                <h1><a href="#" target="_self" title="Hightlands Coffee">
+                    <img src="https://highlandscoffee.com.vn/vnt_upload/weblink/logo.svg" alt="Hightlands Coffee">
+                </a></h1>
+            </div>
+            <div class="header-tools">
+                <div class="rowTools">
+                    <div class="searchTop hidden-sm hidden-xs">
+                        <form action="#" id="formSearch" class="box-search">
+                            <input id="keyword" type="text" class="text_search" placeholder="Từ khóa">
+                            <button><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="languageTop">
+                        <ul>
+                            <li><a href="#">
+                                <img src="../img/flag-vn.jpg" alt="VN">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="../img/flag-en.jpg" alt="EN">
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="menu_default">
+                      <div class="icon_menu">
+                          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                              <i class="fa fa-bars"></i>
+                          </a>
+                      </div>
+                  </div>
+                  </div>
+                <div class="menuTop hidden-sm hidden-xs">
+                    <ul>
+                        <li class="menu-list">
+                            <a href="home.html" target="_self"><span>QUÁN CÀ PHÊ</span></a>
+                        </li>
+                        <li class="menu-mega">
+                            <a href="#" target="_self"><span>THỰC ĐƠN</span></a>
+                           <div class="menuMega">
+                            <div class="col-12 col-sm-12 mega1">
+                                <div class="grid">
+                                    <div class="col-9 col-sm-9 mega-left">
+                                        <ul class="listL">
+                                            <li class="mega-item">
+                                                <a href="#">CÀ PHÊ</a>
+                                                <ul class="item-list">
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Cà Phê Phin</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Cà Phê Espresso</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mega-item">
+                                                <a href="#">FREEZE</a>
+                                                <ul class="item-list">
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#"> Freeze Cà Phê Phin</a></li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#"> Freeze Không Cà Phê</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mega-item">
+                                                <a href="#">TRÀ</a>
+                                                <ul class="item-list">
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Trà Sen Vàng</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Trà Thạch Đào</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Trà Thanh Đào</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Trà Thạch Vải</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mega-item">
+                                                <a href="#">BÁNH MÌ</a>
+                                                <ul class="item-list">
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Thịt Nướng</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Xíu Mại</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Chả Lụa Xá Xíu</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Gà Xé Nước Tương</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mega-item">
+                                                <a href="#">KHÁC</a>
+                                                <ul class="item-list">
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Bánh Ngọt</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Merchandise</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Cà Phê Đóng Gói</a>
+                                                    </li>
+                                                    <li class="items">
+                                                        <i class="fa fa-caret-right muiten" aria-hidden="true"></i>
+                                                        <a href="#">Thực Đơn Giao Hàng</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2 col-sm-2 banner">
+                                        <div class="bannerMenu">
+                                            <div class="txt">
+                                                <a href="#">Phin Sữa Đá Đậm Đà Chất Pin! 29.000đ</a>
+                                            </div>
+                                            <div class="img">
+                                                <a href="#">
+                                                    <img src="../../img/z1.jpg" alt="Phin Sữa Đá Đậm Đà Chất Pin! 29.000đ">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </li>
+                        <li class="menu-mega">
+                            <a href="#" target="_self"><span>TIN TỨC</span></a>
+                           <div class="menuMega">
+                            <div class="col-12 col-sm-12 mega1">
+                                <div class="grid">
+                                    <div class="col-9 col-sm-9 mega-left">
+                                        <ul class="listL">
+                                            <li class="mega-item">
+                                                <a href="#">TIN TỨC &amp; SỰ KIỆN</a>
+                                            </li>
+                                            <li class="mega-item">
+                                                <a href="#">TIN KHUYẾN MÃI</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2 col-sm-2 banner">
+                                        <div class="bannerMenu">
+                                            <div class="txt">
+                                                <a href="#">Tự hào sinh ra từ đất Việt, 1999!</a>
+                                            </div>
+                                            <div class="img">
+                                                <a href="#">
+                                                    <img src="../../img/tuhaoTinTuc.jpg" alt="Tự hào sinh ra từ đất Việt, 1999!">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </li>
+                        <li class="menu-mega">
+                            <a href="#" target="_self"><span>TRÁCH NHIỆM CỘNG ĐỒNG</span></a>
+                           <div class="menuMega">
+                            <div class="col-12 col-sm-12 mega1">
+                                <div class="grid">
+                                    <div class="col-9 col-sm-9 mega-left">
+                                        <ul class="listL">
+                                            <li class="mega-item">
+                                                <a href="#">Giá Trị Văn hóa Việt</a>
+                                                <ul class="item-list">
+                                                    <li class="items"><a href="#">Đương Đại Hóa Tranh Đông Hồ</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="mega-item">
+                                                <a href="#">Cộng đồng</a>
+                                                <ul class="item-list">
+                                                    <li class="items"><a href="#">Lớp Học Cho Em</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2 col-sm-2 banner">
+                                        <div class="bannerMenu">
+                                            <div class="txt">
+                                                <a href="#">Đương Đại Hóa Tranh Đông Hồ</a>
+                                            </div>
+                                            <div class="img">
+                                                <a href="#">
+                                                    <img src="../../img/dongHoCongDong.jpg" alt="Đương Đại Hóa Tranh Đông Hồ">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </li>
+                        <li class="menu-mega">
+                            <a href="#" target="_self"><span>VỀ CHÚNG TÔI</span></a>
+                           <div class="menuMega">
+                            <div class="col-12 col-sm-12 mega1">
+                                <div class="grid">
+                                    <div lass="col-9 col-sm-9 mega-left">
+                                        <ul class="listL">
+                                            <li class="mega-item">
+                                                <a href="#">KHỞI NGUỒN</a>
+                                            </li>
+                                            <li class="mega-item">
+                                                <a href="#">DỊCH VỤ KHÁCH HÀNG</a>
+                                            </li>
+                                            <li class="mega-item">
+                                                <a href="#">NGHỀ NGHIỆP</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2 col-sm-2 banner vct">
+                                        <div class="bannerMenu">
+                                            <div class="txt">
+                                                <a href="#">Thương hiệu bắt nguồn từ cà phê Việt</a>
+                                            </div>
+                                            <div class="img">
+                                                <a href="#">
+                                                    <img src="../../img/about_menu.png" alt="Thương hiệu bắt nguồn từ cà phê Việt">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </li>
+                        <li class="menu-mega"><a href="#">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="tt_content">
+  <div class="tt_tintuc">
+      <h1>TIN TỨC</h1>
+  </div>
+  <div class="tt_container ">
+      <ul class="tt_list col-lg-12 col-sm-12">
+          <li class="tt_item col-lg-4 col-sm-4">
+              <div class="tt_sect">
+                  <a href="#"><img src="../img/470_crop_HL20_470x314-01.png" alt="Thư xin lỗi chính thức khác hàng Lê Văn Trường" style="padding-top: 0;padding-bottom: -24px;margin-top: 0;"></a>
+                  <a href="#"><h6 class="tt_tenItem">Thư xin lỗi chính thức khác hàng Lê Văn Trường</h6></a>
+                  <div class="tt_time">
+                      <span class="tt_iconTime"><i class="fa fa-calendar-alt"></i></span>
+                      <p>20/02/2020, 07:35</p>
+                  </div>
+              </div>
+          </li>
+          <li class="tt_item col-lg-4 col-sm-4">
+              <div class="tt_sect">
+                  <a href="#"><img src="../img/tin2.png" alt="Lịch mở của tết 2020 - HIGHLANDS Coffee"></a>
+                 <a href="#"><h6 class="tt_tenItem">Lịch mở của tết 2020 - HIGHLANDS Coffee</h6></a>
+                  <div class="tt_time">
+                      <span class="tt_iconTime"><i class="fa fa-calendar-alt"></i></span>
+                      <p>22/01/2020, 15:37</p>
+                  </div>
+              </div>
+          </li>
+          <li class="tt_item col-lg-4 col-sm-4">
+              <div class="tt_sect">
+                  <a href="#"><img src="../img/tin3.png" alt="Danh sách quán có áp dụng khung giá mới"></a>
+                  <a href="#"><h6 class="tt_tenItem">Danh sách quán có áp dụng khung giá mới</h6></a>
+                  <div class="tt_time">
+                      <span class="tt_iconTime"><i class="fa fa-calendar-alt"></i></span>
+                      <p>17/01/2020, 14:45</p>
+                  </div>
+              </div>
+          </li>
+          <li class="tt_item col-lg-4 col-sm-4">
+              <div class="tt_sect">
+                  <a href="#"><img src="../img/tin4.png" alt="Điều kiện áp dụng chương trình ưu đãi" style="padding-bottom: 35px;"></a>
+                  <a href="#"><h6 class="tt_tenItem" style="transform: translateY(-30%); padding-top: 0;">Điều kiện áp dụng chương trình ưu đãi</h6></a>
+                  <div class="tt_time">
+                      <span class="tt_iconTime"><i class="fa fa-calendar-alt"></i></span>
+                      <p>10/01/2020, 11:48</p>
+                  </div>
+              </div>
+          </li>
+          <li class="tt_item col-lg-4 col-sm-4">
+              <div class="tt_sect">
+                  <a href="#"><img src="../img/470_crop_tra-sen-vang-moi.png" alt="Uống trà sen vàng mới - Nhận vô vàng ưu đãi sẽ vàng"></a>
+                  <a href="#"><h6 class="tt_tenItem">Uống trà sen vàng mới - Nhận vô vàng ưu đãi sẽ vàng</h6></a>
+                  <div class="tt_time">
+                      <span class="tt_iconTime"><i class="fa fa-calendar-alt"></i></span>
+                      <p>04/12/2020, 23:50</p>
+                  </div>
+              </div>
+          </li>
+          <li class="tt_item col-lg-4 col-sm-4">
+              <div class="tt_sect">
+                  <a href="#"><img src="../img/tin5.jpg" alt="Đại tiệc âm nhạc: HighLands Coffee 20 năm - Gắn kết niềm tự hào đất Việt"></a>
+                  <a href="#"><h6 class="tt_tenItem">Đại tiệc âm nhạc: HighLands Coffee 20 năm - Gắn kết niềm tự hào đất Việt</h6></a>
+                  <div class="tt_time">
+                      <span class="tt_iconTime"><i class="fa fa-calendar-alt"></i></span>
+                      <p>28/10/2019, 12:05</p>
+                  </div>
+              </div>
+          </li>
+          <li class="tt_item col-lg-4 col-sm-4">
+              <div class="tt_sect">
+                  <a href="#"><img src="../img/tin1.png" alt="HighLands Coffee: Trọn vẹn tuổi 20 cùng hành trình gắn kết Niềm tự hào đất Việt"></a>
+                  <a href="#"><h6 class="tt_tenItem">HighLands Coffee: Trọn vẹn tuổi 20 cùng hành trình gắn kết "Niềm tự hào đất Việt"</h6></a>
+                  <div class="tt_time">
+                      <span class="tt_iconTime"><i class="fa fa-calendar-alt"></i></span>
+                      <p>22/10/2019, 15:59</p>
+                  </div>
+              </div>
+          </li>
+          <li class="tt_item col-lg-4 col-sm-4">
+              <div class="tt_sect">
+                  <a href="#"><img src="../img/tin.png" alt="HighLands Coffee: 20 năm - Gắn kết niềm tự hào đất Việt"></a>
+                  <a href="#"><h6 class="tt_tenItem">HighLands Coffee: 20 năm - Gắn kết niềm tự hào đất Việt</h6></a>
+                  <div class="tt_time">
+                      <span class="tt_iconTime"><i class="fa fa-calendar-alt"></i></span>
+                      <p>01/10/2019, 18:14</p>
+                  </div>
+              </div>
+          </li>
+          <li class="tt_item col-ls-4 col-sm-4">
+              <div class="tt_sect">
+                  <a href="#"><img src="../img/tin7.jpg" alt="Tận hưởng Freeze trà xanh - Trà xanh đậm đà, thạch giòn khó cưỡng!"></a>
+                  <a href="#"><h6 class="tt_tenItem">Tận hưởng Freeze trà xanh - Trà xanh đậm đà, thạch giòn khó cưỡng!</h6></a>
+                  <div class="tt_time">
+                      <span class="tt_iconTime"><i class="fa fa-calendar-alt"></i></span>
+                      <p>05/08/2019, 17:52</p>
+                  </div>
+              </div>
+          </li>
+      </ul>
+  </div>
+  <div class="tt_xemthem">
+      <button class="tt_button">Xem thêm</button>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="footerContent">
+      <ul class="footerul">
+          <li class="footeritem">
+              <div class="footerB">
+                  <div class="footerIcon">
+                      <ul class="iconMenu">
+                          <li class="iconItem"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li class="iconItem"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                          <li class="iconItem"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                      </ul>
+                  </div>  
+              </div>          
+          </li>
+          <li class="footeritem">
+              <div class="copyright">
+                  <span>© 2018 Highlands Coffee. All rights reserved</span>
+              </div>
+          </li>
+          <li class="footeritem">
+              <div class="dangky">
+                  <a href="#"><i class="fa fa-paper-plane"></i></a>
+                  <a href="#"><span>Đăng ký để nhận bảng tin</span></a>
+              </div>
+          </li>
+          <li class="footeritem">
+              <div class="sentMail">
+                  <a href="#"><i class="fa fa-envelope"></i></a>
+                  <a href="#"><span>customerservice@hignhtcoffee.com.vn</span></a>
+              </div>
+          </li>
+      </ul>
+  </div>
+</footer>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
